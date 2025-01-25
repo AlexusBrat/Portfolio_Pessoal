@@ -1,4 +1,4 @@
-/* Estilização padrão da página */
+/* Estilização padrão da página <GERAL> */
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +13,23 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
+.flex{
+    display: flex;
+}
+.btn-contato button{
+    background-color: #ffffff;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #ffffff;
+    transform: scale(1.05);
+}
 
 /* Estilização do <HEADER> */
 header{
@@ -24,7 +41,7 @@ header > .interface{
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+.interface .logo img{
     width: 85px;
     height: 85px;
     border-radius: 100px;
@@ -46,15 +63,54 @@ header nav ul li{
     display: inline-block;
     padding: 0px 40px;
 }
-header .btn-contato button{
-    background-color: #ffffff;
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 700;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
+
+/* Estilização do <TOPO-DO-SITE> */
+.topo-do-site .img-topo-site img{
+    width: 650px;
+    height: 400px;
 }
-header .btn-contato button:hover{
-    box-shadow: 0px 0px 8px #ffffff;
+.topo-do-site .img-topo-site img:hover{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site .txt-topo-site h1{
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 40px;
+}
+.topo-do-site .txt-topo-site h1 span{
+    color: #ffffff;
+    transition: 1s;
+}
+.topo-do-site .txt-topo-site h1 span:hover{
+    color: #ff2b60;
+}
+.topo-do-site .txt-topo-site p{
+    color: #ffffff;
+    margin: 40px 0px;
+    text-align: justify;
+}
+.topo-do-site .txt-topo-site p span{
+    transition: 0.5s;
+}
+.topo-do-site .txt-topo-site p span:hover{
+    color: #ff2b60;
+}
+
+/* Animação de flutuação */
+@keyframes flutuar{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 30px;
+    }
 }

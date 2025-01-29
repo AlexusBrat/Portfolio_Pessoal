@@ -58,7 +58,7 @@ header a{
     color: #7d7d7d;
     text-decoration: none;
     display: inline-block;
-    transition: .2s;
+    transition: 0.2s;
 }
 header a:hover{
     color: #ffffff;
@@ -76,6 +76,7 @@ header nav ul li{
 .topo-do-site .img-topo-site img{
     width: 650px;
     height: 400px;
+    border-radius: 20px;
 }
 .topo-do-site .img-topo-site img:hover{
     position: relative;
@@ -141,6 +142,57 @@ section.especialidades .flex{
 }
 .especialidades .especialidades-box p{
     text-align: justify;
+}
+.especialidades .especialidades-box .novidade{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Estilização do <SOBRE> */
+section.sobre{
+    padding: 60px 4%;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .img-sobre img{
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+}
+.sobre .txt-sobre{
+    color: #ffffff;
+}
+.sobre .txt-sobre h2{
+    font-size: 40px;
+}
+.sobre .txt-sobre h2 span{
+    color: #ff2b60;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0px;
+    text-align: justify;
+}
+.sobre .txt-sobre .btn-social a{
+    text-decoration: none;
+}
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.sobre .txt-sobre .btn-social button:hover{
+    box-shadow: 0px 0px 8px #ffffff;
+    transform: scale(1.05);
 }
 
 /* Animação de flutuação */

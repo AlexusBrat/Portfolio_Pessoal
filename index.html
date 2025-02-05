@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
     <!-- Fim Google Fonts -->
 
-
+    <script src="menu.js" defer></script>
 </head>
 <body>
     <header id="inicio">
@@ -31,6 +31,26 @@
                     <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav> <!-- menu-desktop -->
+
+            <div class="btn-abrir-menu" id="btn-abrir-menu">
+                <i class="bi bi-list"></i>
+            </div> <!-- btn-abrir-menu -->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#especialidade">Especialidade</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="https://wa.me/5518996865094" target="_blank">Contato</a></li>
+                    </ul>
+                </nav> <!-- menu-desktop -->
+            </div> <!-- menu-mobile -->
+            <div class="overlay-menu" id="overlay-menu"></div> <!-- overlay-menu -->
             
             <div class="btn-contato">
                 <a href="https://wa.me/5518996865094" target="_blank" ><button>Contato</button></a>

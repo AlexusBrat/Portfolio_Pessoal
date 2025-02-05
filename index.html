@@ -16,7 +16,7 @@
 
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <div class="interface">
             <div class="logo">
                 <a href="#">
@@ -25,17 +25,15 @@
             </div> <!-- Logo -->
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidade</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidade">Especialidade</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav> <!-- menu-desktop -->
             
             <div class="btn-contato">
-                <a href="#">
-                    <button>Contato</button>
-                </a>
+                <a href="https://wa.me/5518996865094" target="_blank" ><button>Contato</button></a>
             </div> <!-- btn-contato -->
         </div> <!-- Interface -->
     </header>
@@ -48,9 +46,7 @@
                         <h1> <span>Alexandre</span> <span>A.</span> <span>Bratifisch</span></h1>
                         <p>Olá seja bem vindo ao meu portfólio, sou <span>Alexandre Albertino Bratifisch</span>, programador com formação pela FATEC de Presidente Prudente/SP em <span>Análise e Desenvolvimento de Sistemas</span>. Desde cedo, tenho um grande interesse por tecnologia, e cada novo aprendizado reforça minha decisão de seguir carreira na área de TI.</p>
                         <div class="btn-contato">
-                            <a href="#">
-                                <button>Entre em Contato</button>
-                            </a>
+                            <a href="https://wa.me/5518996865094" target="_blank"><button>Entre em Contato</button></a>
                         </div>
                     </div> <!-- txt-topo-site -->
                     <div class="img-topo-site">
@@ -60,7 +56,7 @@
             </div> <!-- interface -->
         </section> <!-- topo-do-site -->
 
-        <section class="especialidades">
+        <section class="especialidades" id="especialidade">
             <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
             <div class="flex">
                 <div class="especialidades-box">
@@ -85,7 +81,7 @@
             </div> <!-- flex -->
         </section> <!-- especialidades -->
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -97,15 +93,9 @@
                         <p>Meu objetivo é consolidar uma carreira como programador, onde posso aplicar e expandir minhas habilidades técnicas, mas tenho curiosidade e abertura para explorar diversas áreas do universo tecnológico.</p>
                         <p>Minha experiência de trabalhos com tecnologia atualmente estão apenas no campo acadêmico e em projetos pessoais, busco novas oportunidades para conseguir iniciar a minha carreira.</p>
                         <div class="btn-social">
-                            <a href="https://github.com/AlexusBrat" target="_blank">
-                                <button><i class="bi bi-github"></i></button>
-                            </a>
-                            <a href="https://www.linkedin.com/in/alexandre-bratifisch/" target="_blank">
-                                <button><i class="bi bi-linkedin"></i></button>
-                            </a>
-                            <a href="https://www.instagram.com/alexusbrat/" target="_blank">
-                                <button><i class="bi bi-instagram"></i></button>
-                            </a>
+                            <a href="https://github.com/AlexusBrat" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/alexandre-bratifisch/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://www.instagram.com/alexusbrat/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
                         </div> <!-- btn-social -->
                     </div> <!-- txt-sobre -->
                     
@@ -113,7 +103,7 @@
             </div> <!-- interface -->
         </section> <!-- sobre -->
 
-        <section class="portfolio">
+        <section class="portfolio" id="projetos">
             <div class="interface">
                 <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
                 <div class="flex">
@@ -145,5 +135,28 @@
             </div>
         </section> <!-- formulario -->
     </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo-0.png" alt="Logo principal da página">
+                    </div> <!-- logo-footer -->
+
+                    <div class="btn-social">
+                        <a href="https://github.com/AlexusBrat" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/alexandre-bratifisch/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://www.instagram.com/alexusbrat/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                    </div> <!-- btn-social -->
+                </div> <!-- flex -->
+            </div> <!-- line-footer -->
+            <div class="line-footer last-child">
+                
+                <p><i class="bi bi-envelope-fill"></i><a href="mailto:alexxbrati@gmail.com">alexxbrati@gmail.com</a></p>
+                <p><i class="bi bi-envelope-fill"></i><a href="mailto:alexandrebratifisch@gmail.com">alexandrebratifisch@gmail.com</a></p>
+            </div> <!-- line-footer -->
+        </div> <!-- interface -->
+    </footer>
 </body>
 </html>

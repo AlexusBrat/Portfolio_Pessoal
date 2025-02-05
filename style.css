@@ -38,6 +38,21 @@ h2.titulo{
 h2.titulo span{
     color: #ff2b60;
 }
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn-social button:hover{
+    box-shadow: 0px 0px 8px #ffffff;
+    transform: scale(1.05);
+}
 
 /* Estilização do <HEADER> */
 header{
@@ -179,21 +194,6 @@ section.sobre .flex{
 .sobre .txt-sobre .btn-social a{
     text-decoration: none;
 }
-.sobre .txt-sobre .btn-social button{
-    width: 60px;
-    height: 60px;
-    margin: 0 5px;
-    border-radius: 20px;
-    border: none;
-    background-color: #ffffff;
-    font-size: 25px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.sobre .txt-sobre .btn-social button:hover{
-    box-shadow: 0px 0px 8px #ffffff;
-    transform: scale(1.05);
-}
 
 /* Estilização <PORTFOLIO> */
 section.portfolio{
@@ -281,6 +281,33 @@ form .btn-enviar input:hover{
     cursor: pointer;
     box-shadow: 0px 0px 8px #ff2b60;
     transform: scale(1.05);
+}
+
+/* Estilização <FOOTER> */
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #7d7d7d56;
+}
+footer .interface img{
+    width: 85px;
+    height: 85px;
+    border-radius: 100px;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+    padding: 20px 0;
+}
+footer .last-child{
+    border-top: 2px solid #ff2b60;
+}
+footer .line-footer p i{
+    color: #ffffff;
+    font-size: 22px;
+}
+footer .line-footer p a{
+    color: #ff2b60;
 }
 
 /* Animação de flutuação */
